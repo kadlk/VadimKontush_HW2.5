@@ -2,7 +2,7 @@
 //  ResultViewController.swift
 //  PersonalQuiz
 //
-//  Created by Nikita Zharinov on 01/11/2021.
+//  Created by Vadim Kontush on 01/11/2021.
 //
 
 import UIKit
@@ -14,6 +14,7 @@ class ResultViewController: UIViewController {
     @IBOutlet var navigationInfoOutlet: UINavigationItem!
     
     var answers = [Answer?]()
+    // After homework was sent i change String to AnimalType
     var animalsTypeCount: [AnimalType: Int] = [AnimalType.cat: 0, AnimalType.dog: 0, AnimalType.rabbit: 0, AnimalType.turtle: 0]
     
     override func viewDidLoad() {
